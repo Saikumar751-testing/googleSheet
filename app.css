@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#spreadsheet {
+    border: 1px solid black;
+    width: 1024px;
+    height: 1024px;
+}
+
+#selectedCellBorder,
+#selectedRange,
+#selectedCellFormula,
+#textInput {
+    position: absolute;
+}
+
+#textInput {
+    display: none;
+}
